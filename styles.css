@@ -1,0 +1,50 @@
+.body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(52, 61, 73);
+}
+#header{
+    background-color: rgb(52, 61, 73);
+    color: papayawhip;
+    position: absolute;
+    right: 48%;
+    top: 50px;
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: bold;
+}
+.text{
+    background-color: rgb(52, 61, 73);
+    position: absolute;
+    top: 150px;
+    font-size: 20px;
+    font-family: monospace;
+    text-decoration: none;
+    color: papayawhip;
+}
+#message{
+    position: absolute;
+    top: 400px;
+    right: 704px;
+    font-size: 50px;
+    font-family: monospace;
+    text-decoration: none;
+    background-color: papayawhip;
+    color: rgb(52, 61, 73); 
+}
+#top{
+    font-weight: bold;
+    font-style: italic;
+    position: absolute;
+    top: 250px;
+    right: 73.6%;
+    font-size: 90px;
+    font-family: 'Lucida Grande';
+    text-decoration: none;
+    background-color: papayawhip;
+    color: rgb(52, 61, 73); 
+}
+#background{
+    width: 1900px;
+    height: 1080px;
+}
