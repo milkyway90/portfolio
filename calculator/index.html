@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <input type="text" id="inpt1" placeholder="number 1"></input>
+    <input type="text" id="inpt2" placeholder="number 2"></input>
+    <button name="button" id="btn" onclick="add()">add</button>
+    <script>
+      function add() {
+        let a = document.querySelectorAll('#inpt1')[0].value;
+        let b = document.querySelectorAll('#inpt2')[0].value;
+
+        window.location.reload();
+        alert(parseFloat(a) + parseFloat(b));
+      }
+    </script>
+  </body>
+</html>
